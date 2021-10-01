@@ -20,7 +20,7 @@ repos:
         entry: flake8
         types: [python]
         require_serial: true
-        args: ["--ignore=W503,W605,E203"]
+        args: ["--ignore=W503,W605,E203,E501"]
   - repo: local
     hooks:
       - id: mypy
